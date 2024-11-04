@@ -56,17 +56,48 @@ By achieving these objectives, the project aims to contribute valuable knowledge
 •	Boxplots: Boxplots visualize the spread of bill and payment amounts, helping detect potential outliers.<br>
 •	Correlation Heatmap: We generate a heatmap to show correlations between numeric features (e.g., BILL_AMT and PAY_AMT values over time). This helps identify multicollinearity—if two or more features are highly correlated, we might remove or combine them to avoid redundancy. 
 <br>
-a) **Distribution of Default Payment Next Month:**
+<br>
+
+a) **Distribution of Default Payment Next Month:** It generates a bar plot to show the count of clients who did and did not default in the default payment next month column of df, allowing visualization of class distribution in the target variable.<br>
 <p align="center">
-  <img src=""/></p>
-  <p align="center">Checking for Missing Values in dataset</p>
+  <img src="https://github.com/user-attachments/assets/a5867cd0-c04f-40a9-9e2a-012695a16537"/></p>
+  <p align="center">Distribution of Default Payment Next Month</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/18dc7475-8aca-4dad-ad53-1b5b55c27597"/></p>
+<br>
+<br>
 
-
-
+**b) Distribution of Credit Limit (LIMIT_BAL)**: It creates a histogram with a density curve to show the distribution of credit limits (LIMIT_BAL) in df, helping visualize the spread and frequency of different credit limit values and the below figure is the output.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b7c0fd9a-c99c-4805-a30e-0a6a0262638a"/></p>
+  <p align="center"> Distribution of Credit Limit (LIMIT_BAL)</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b7c0fd9a-c99c-4805-a30e-0a6a0262638a"/></p>
+  <p align="center"> Output for Distribution of Credit Limit (LIMIT_BAL)</p>
+  <br>
+  <br>
   
+**c) Age Distribution:** It creates a histogram with a density curve to show the distribution of AGE in df, highlighting the frequency and spread of ages in the dataset and below figure is the output. <br>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/caad23bc-07e6-4023-8b2c-f1f8104ac3b4"/></p>
+  <p align="center">Age Distribution</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/88eb3c54-5697-4fbf-a12e-ff7748781b19"/></p>
+  <p align="center">Output for Age Distribution</p>
+<br>
+<br>
 
+**d) Correlation Heatmap of Features:** It generates a heatmap to display correlations between features in df, with annotations, colors indicating correlation strength, and a larger figure size for clarity.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d15c7086-d345-4faf-8d3e-9e552e87adee"/></p>
+  <p align="center">Correlation Heatmap of Features</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3630769e-863c-4d76-bc77-137974f80740"/></p>
+  <p align="center">Output for Correlation Heatmap of Features</p>
+<br>
+<br>
 
-
+**4. Logistic Regression Tuning & Evaluation**
 
 
 
