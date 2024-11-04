@@ -121,6 +121,19 @@ a) **Distribution of Default Payment Next Month:** It generates a bar plot to sh
   <img src="https://github.com/user-attachments/assets/a3b92462-c644-4a93-a389-b4621419aef2"/></p>
   <p align="center">Random Forest - Confusion Matrix</p>
 
+**6. Gradio App Usage:** Gradio App Usage
+We implemented a Gradio web interface to provide an interactive platform for credit card default predictions.<br>
+Instructions:<br>
+1.	Enter the Client Data: Fill in all the required fields with relevant client information, such as credit limit, bill amounts, repayment status, and payment amounts.<br>
+2.	Submit the Data: Click the "Submit" button to generate the prediction. The app will indicate whether the client is likely to default or not default on their payment.<br>
+3.	Error Handling: If any field is missing or the input data is invalid (e.g., non-numeric values), an error message will be shown, prompting the user to correct the input.<br>
+This interface allows for easy testing of the prediction model, providing real-time results and enhancing usability for non-technical users.<br>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3f86977f-b306-48b2-a9a4-606e6a674bf9"/></p>
+  <p align="center">Code for Gradio app interface</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7ec2ee51-2f7f-4bc7-8acd-9c1ab483b14d"/></p>
+  <p align="center">Output for Gradio app interface</p>
 
 
 
