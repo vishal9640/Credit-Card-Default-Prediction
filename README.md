@@ -97,8 +97,10 @@ a) **Distribution of Default Payment Next Month:** It generates a bar plot to sh
 <br>
 <br>
 
-**4. Logistic Regression Tuning & Evaluation**
-
+**4. Logistic Regression Tuning & Evaluation:** It scales features and trains a Logistic Regression model on the scaled training data, evaluates it with 5-fold cross-validation for accuracy, and outputs mean accuracy, standard deviation, and a classification report for predictions on the test set.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b4222891-a8e5-4f8f-b9b6-6ce6c205494f"/></p>
+  <p align="center">Logistic Regression classification report</p>
 
 
 
