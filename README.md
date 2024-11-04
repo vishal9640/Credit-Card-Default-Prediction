@@ -101,11 +101,25 @@ a) **Distribution of Default Payment Next Month:** It generates a bar plot to sh
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b4222891-a8e5-4f8f-b9b6-6ce6c205494f"/></p>
   <p align="center">Logistic Regression classification report</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0076d70b-4425-43f6-98b6-34ebc857e8b9"/></p>
+  <p align="center">Output for Logistic Regression classification report</p>
+<br>
+<br>
+<br> 
 
+**5. Random Forest Tuning & Evaluation:** It trains a Random Forest model on the training data, evaluates it using 5-fold cross-validation, prints mean accuracy and standard deviation, generates a classification report for test predictions, and displays a confusion matrix heatmap.
 
-
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d224b45a-5434-4877-b95b-1f659d22ae0a"/></p>
+  <p align="center">Random Forest Parameter Tuning
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/96ff5b41-17e4-481b-87d9-84f5a4a2d2d2"/></p>
+  <p align="center">Random Forest Parameter Tuning</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a3b92462-c644-4a93-a389-b4621419aef2"/></p>
+  <p align="center">Random Forest - Confusion Matrix</p>
 
 
 
